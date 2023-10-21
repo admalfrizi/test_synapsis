@@ -88,7 +88,7 @@ class _ListSurveyScreenState extends State<ListSurveyScreen> {
       final response = await http.get(
         Uri.parse("${baseUrl}api/survey"),
         headers: {
-          'Authorization' : 'Bearer eyJhbGciOiJIUzI1NiJ9.e30.4knTJA8CR4vZNof4ik7K0BLguM8OkRotaagNhVKem2M',
+          'Authorization' : 'Bearer ',
           "Content-Type": 'application/json',
           'User-Agent': "Dart/3.1.4 (dart.io)",
           "Cookie": "token=$tokenData",
