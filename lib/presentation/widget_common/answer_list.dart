@@ -35,7 +35,7 @@ class _RadioBtnState extends State<AnswerList> {
       final response = await http.get(
           Uri.parse("${baseUrl}api/survey/${widget.id}"),
           headers: {
-            'Authorization' : 'Bearer eyJhbGciOiJIUzI1NiJ9.e30.4knTJA8CR4vZNof4ik7K0BLguM8OkRotaagNhVKem2M',
+            'Authorization' : 'Bearer ',
             "Content-Type": 'application/json',
             "Cookie": "token=${widget.token}",
           }
